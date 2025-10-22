@@ -2,7 +2,7 @@
 layout: doc
 
 emoji: 🎛️
-title: 理想のMIDIコンを自作する
+title: 理想のMIDIコントローラを自作
 description: ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ
 
 date: 2024-08-18
@@ -20,7 +20,7 @@ tags:
 
 [その他の工作](../tags/otherdiy) | [MIDI](../tags/midi) | [Arduino](../tags/arduino) | [C/C++](../tags/ccpp)
 
-# 理想のMIDIコンを自作する
+# 理想のMIDIコントローラを自作
 
 ::: warning
 正しい情報を記載するよう努めていますが、それはそれとして当方は一切の責任を負いかねます。

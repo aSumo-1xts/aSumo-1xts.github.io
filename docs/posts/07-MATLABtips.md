@@ -13,6 +13,8 @@ next: false
 
 tags:
   - matlab
+
+hidden: true
 ---
 
 ## はじめに
