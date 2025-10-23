@@ -124,7 +124,7 @@ tags:
 <<< @/snippets/2025/05-PIC12F6XX.c{c} [PIC12F6XX.c]
 :::
 
-## 完成
+## 完了
 
 <ImageGroup
   :sources="[

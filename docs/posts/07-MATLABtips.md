@@ -5,7 +5,7 @@ emoji: 🧮
 title: MATLAB小技集
 description: ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ
 
-date: 2025-10-23
+date: 2025-10-22
 permalink: "https://aSumoranda.com/posts/07-MATLABtips.html"
 
 prev: false
