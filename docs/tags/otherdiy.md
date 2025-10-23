@@ -4,7 +4,7 @@ layout: doc
 title: その他の工作
 description: 「その他の工作」のタグが付いた記事
 
-order: 8
+order: 4
 permalink: "https://aSumoranda.com/tags/otherdiy.html"
 
 prev: false
