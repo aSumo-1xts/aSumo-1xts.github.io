@@ -17,6 +17,10 @@ tags:
 hidden: true
 ---
 
+[MATLAB](../tags/matlab)
+
+# MATLAB小技集
+
 ## はじめに
 
 MATLABのちょっとした所作をすぐ忘れるので、思い出し次第ここに書き連ねます。
@@ -50,4 +54,33 @@ RGB = orderedcolors("gem");
 H = rgb2hex(RGB);
 
 % 例: H(1) = "#1171BE"
+```
+
+## Simulink関連
+
+### 再生と録音の同時進行
+
+コードだけで実装すると少し複雑なので、Simulinkモデルを用意してコードから実行する。
+
+<ImageGroup
+  :sources="[
+    '/images/2025/07-01.webp',
+  ]"
+  type="big"
+  caption="録音先の音声ファイル名はコード側から上書きされるので、モデル側では適当で良い。"
+/>
+
+```matlab
+playFile = "play.wav";  % 再生元の音声ファイル名
+recFile = "rec.wav";    % 録音先の音声ファイル名
+
+model = 'play_and_rec'; % Simulinkモデルの指定
+load_system(model);     % Simulinkモデルを読み込み
+playPath = [model, '/playFile'];    % 再生ブロックへのパス
+recPath = [model, '/recFile'];      % 録音ブロックへのパス
+set_param(playPath, 'inputFilename', playFile);         % ファイル名を設定
+set_param(recPath, 'outputFilename', recFile);          % ファイル名を設定
+simOut = sim(model, 'ReturnWorkspaceOutputs', 'on');    % 実行
+
+close_system(model, 0); % Simulinkモデルを閉じる
 ```

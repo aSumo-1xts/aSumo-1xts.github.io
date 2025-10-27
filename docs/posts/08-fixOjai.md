@@ -17,6 +17,8 @@ tags:
 hidden: false
 ---
 
+[エフェクター修理](../tags/fixpedals)
+
 # Strymon Ojaiの修理
 
 ## はじめに
