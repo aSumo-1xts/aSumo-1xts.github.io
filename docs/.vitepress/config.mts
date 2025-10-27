@@ -61,7 +61,8 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern: "https://github.com/aSumo-1xts/aSumo-1xts.github.io/blob/main/docs/:path",
+      pattern:
+        "https://github.com/aSumo-1xts/aSumo-1xts.github.io/blob/main/docs/:path",
       text: "GitHubで編集を提案",
     },
 
@@ -100,11 +101,12 @@ export default defineConfig({
   // ページごとに設定したいものは、ここに書かないこと！（なぜかオーバーライドされない）
   head: [
     ["link", { rel: "icon", href: "./favicon.ico" }],
+    ["meta", { property: "og:author", content: "aSumo" }],
     [
       "meta",
       {
         property: "og:image",
-        content: "https://aSumoranda.com/cover01.png",
+        content: "https://asumo-1xts.github.io/cover01.webp",
       },
     ],
     ["meta", { property: "og:locale", content: "ja_JP" }],
@@ -150,13 +152,10 @@ export default defineConfig({
     const title = pageData.frontmatter.title || "aSumoranda";
     const description =
       pageData.frontmatter.description || "ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ";
-    const url =
-      pageData.frontmatter.permalink || "https://aSumoranda.com/";
-    const author = pageData.frontmatter.author || "aSumo";
+    const url = pageData.frontmatter.permalink || "https://asumoranda.com/";
     head.push(["meta", { property: "og:title", content: title }]);
     head.push(["meta", { property: "og:description", content: description }]);
     head.push(["meta", { property: "og:url", content: url }]);
-    head.push(["meta", { property: "og:author", content: author }]);
 
     // まとめて返す
     return head;

@@ -6,7 +6,7 @@ title: Strymon Ojaiの修理
 description: ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ
 
 date: 2025-10-23
-permalink: "https://aSumoranda.com/posts/07-fixOjai.html"
+permalink: "https://asumoranda.com/posts/07-fixOjai.html"
 
 prev: false
 next: false

@@ -6,7 +6,7 @@ title: MPLAB VScode Extention入門
 description: ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ
 
 date: 2025-09-28
-permalink: "https://aSumoranda.com/posts/06-MPLAB-VScode.html"
+permalink: "https://asumoranda.com/posts/06-MPLAB-VScode.html"
 
 prev: false
 next: false
