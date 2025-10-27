@@ -106,7 +106,7 @@ export default defineConfig({
       "meta",
       {
         property: "og:image",
-        content: "https://aSumoranda.com/cover01.png",
+        content: "https://asumo-1xts.github.io/cover01.webp",
       },
     ],
     ["meta", { property: "og:locale", content: "ja_JP" }],
