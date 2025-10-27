@@ -106,7 +106,7 @@ export default defineConfig({
       "meta",
       {
         property: "og:image",
-        content: "https://aSumoranda.com/cover01.png",
+        content: "https://asumo-1xts.github.io/cover01.webp",
       },
     ],
     ["meta", { property: "og:locale", content: "ja_JP" }],
@@ -152,7 +152,7 @@ export default defineConfig({
     const title = pageData.frontmatter.title || "aSumoranda";
     const description =
       pageData.frontmatter.description || "ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ";
-    const url = pageData.frontmatter.permalink || "https://aSumoranda.com/";
+    const url = pageData.frontmatter.permalink || "https://asumoranda.com/";
     head.push(["meta", { property: "og:title", content: title }]);
     head.push(["meta", { property: "og:description", content: description }]);
     head.push(["meta", { property: "og:url", content: url }]);
