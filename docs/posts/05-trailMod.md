@@ -15,6 +15,8 @@ tags:
   - modpedals
   - pic
   - ccpp
+
+hidden: false
 ---
 
 [エフェクター改造](../tags/modpedals) | [PIC](../tags/pic.md) | [C/C++](../tags/ccpp.md)
