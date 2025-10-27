@@ -6,7 +6,7 @@ title: MATLAB小技集
 description: ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ
 
 date: 2025-10-22
-permalink: "https://aSumoranda.com/posts/07-MATLABtips.html"
+permalink: "https://asumoranda.com/posts/07-MATLABtips.html"
 
 prev: false
 next: false

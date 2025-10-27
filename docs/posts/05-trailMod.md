@@ -6,7 +6,7 @@ title: DOD FX96のトレイルバイパス化
 description: ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ
 
 date: 2025-09-24
-permalink: "https://aSumoranda.com/posts/05-trailMod.html"
+permalink: "https://asumoranda.com/posts/05-trailMod.html"
 
 prev: false
 next: false
