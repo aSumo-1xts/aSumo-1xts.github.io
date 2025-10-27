@@ -4,7 +4,7 @@ layout: doc
 title: 環境構築
 description: 「環境構築」のタグが付いた記事
 
-order: 9
+order: 6
 permalink: "https://aSumoranda.com/tags/environment.html"
 
 prev: false
