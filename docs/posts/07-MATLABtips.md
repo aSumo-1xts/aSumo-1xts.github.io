@@ -84,3 +84,7 @@ simOut = sim(model, 'ReturnWorkspaceOutputs', 'on');    % 実行
 
 close_system(model, 0); % Simulinkモデルを閉じる
 ```
+
+<br/>
+
+---
