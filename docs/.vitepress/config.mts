@@ -9,6 +9,8 @@ import {
   groupIconMdPlugin,
   groupIconVitePlugin,
 } from "vitepress-plugin-group-icons";
+import { linkToCardPlugin } from "vitepress-pretty-linkcard";
+import type { LinkToCardPluginOptions } from "vitepress-pretty-linkcard";
 
 export default defineConfig({
   lang: "ja",
@@ -22,6 +24,7 @@ export default defineConfig({
     config: (md) => {
       md.use(tabsMarkdownPlugin);
       md.use(groupIconMdPlugin);
+      md.use<LinkToCardPluginOptions>(linkToCardPlugin, {});
     },
   },
   vite: {

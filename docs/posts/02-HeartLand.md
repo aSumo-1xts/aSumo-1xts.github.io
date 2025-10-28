@@ -167,13 +167,9 @@ mother側では、DAWからクロックを受けてLEDをメトロノーム的�
 
 ### KICAD 用シンボル/フットプリント
 
-#### Arduino ProMicro
+[ProMicro](@:https://github.com/g200kg/kicad-lib-arduino)
 
-<https://github.com/g200kg/kicad-lib-arduino>
-
-#### Arduino Mega2560 ProMini
-
-<https://github.com/Alarm-Siren/arduino-kicad-library>
+[Mega2560](@:https://github.com/Alarm-Siren/arduino-kicad-library)
 
 <br/>
 
