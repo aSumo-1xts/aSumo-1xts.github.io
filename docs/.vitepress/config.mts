@@ -128,9 +128,7 @@ export default defineConfig({
     ],
   ],
 
-  transformHead({ assets, pageData }) {
-    const head: HeadConfig[] = [];
-
+  transformHead({ assets, pageData, head }) {
     // フォントのプリロード
     const FontFile = assets.find(
       (file) =>
@@ -153,9 +151,11 @@ export default defineConfig({
     const description =
       pageData.frontmatter.description || "ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ";
     const url = pageData.frontmatter.permalink || "https://asumoranda.com/";
+    const canonicalUrl = url;
     head.push(["meta", { property: "og:title", content: title }]);
     head.push(["meta", { property: "og:description", content: description }]);
     head.push(["meta", { property: "og:url", content: url }]);
+    head.push(["link", { rel: "canonical", href: canonicalUrl }]);
 
     // まとめて返す
     return head;
