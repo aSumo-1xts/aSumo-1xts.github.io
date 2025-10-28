@@ -5,7 +5,7 @@ title: MATLAB
 description: 「MATLAB」のタグが付いた記事
 
 order: 33
-permalink: "https://aSumoranda.com/tags/matlab.html"
+permalink: "https://asumoranda.com/tags/matlab.html"
 
 prev: false
 next: false
