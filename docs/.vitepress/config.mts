@@ -175,7 +175,7 @@ function mySidebar(): DefaultTheme.SidebarItem[] {
         useTitleFromFrontmatter: true,
         sortMenusByFrontmatterDate: true,
         excludeFilesByFrontmatterFieldName: "hidden",
-      }),
+      }) as any,
     },
     {
       text: "主なタグ",
@@ -188,7 +188,7 @@ function mySidebar(): DefaultTheme.SidebarItem[] {
         useTitleFromFrontmatter: true,
         sortMenusByFrontmatterOrder: true,
         excludeFilesByFrontmatterFieldName: "hidden",
-      }),
+      }) as any,
     },
   ];
 }
