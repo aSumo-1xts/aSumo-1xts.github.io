@@ -1,4 +1,4 @@
-import { createContentLoader, defineConfig, HeadConfig } from "vitepress";
+import { createContentLoader, defineConfig } from "vitepress";
 import { type DefaultTheme } from "vitepress";
 import { SitemapStream } from "sitemap";
 import { createWriteStream } from "node:fs";
