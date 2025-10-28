@@ -32,9 +32,7 @@ hidden: false
 
 ## はじめに
 
-「ぼくがかんがえたさいきょうのMIDIコントローラー」を作ったので、その工程をまとめました。ソースコードや回路図はGitHubにも載せています。
-
-<https://github.com/aSumo-1xts/MIDI-HARD/tree/main/HeartLand>
+「ぼくがかんがえたさいきょうのMIDIコントローラー」を作ったので、その工程をまとめました。
 
 ## 環境
 

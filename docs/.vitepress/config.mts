@@ -84,7 +84,7 @@ export default defineConfig({
   // サイトマップの生成
   buildEnd: async ({ outDir }) => {
     const sitemap = new SitemapStream({
-      hostname: "https://aSumoranda.com",
+      hostname: "https://asumoranda.com",
     });
     const pages = await createContentLoader("**/*.md").load();
     const writeStream = createWriteStream(resolve(outDir, "sitemap.xml"));
