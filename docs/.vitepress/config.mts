@@ -128,9 +128,7 @@ export default defineConfig({
     ],
   ],
 
-  transformHead({ assets, pageData }) {
-    const head: HeadConfig[] = [];
-
+  transformHead({ assets, pageData, head }) {
     // フォントのプリロード
     const FontFile = assets.find(
       (file) =>
