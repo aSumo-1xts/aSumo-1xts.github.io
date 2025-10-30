@@ -1,11 +1,11 @@
 ---
 layout: doc
 
-title: Arduino
-description: 「Arduino」のタグが付いた記事
+title: Web開発
+description: 「Web開発」のタグが付いた記事
 
-order: 21
-permalink: "https://asumoranda.com/tags/arduino.html"
+order: 8
+permalink: "https://asumoranda.com/tags/webdev.html"
 
 prev: false
 next: false
@@ -21,8 +21,8 @@ hidden: true
     import PostCounter      from "../.vitepress/components/PostCounter.vue"
 </script>
 
-# 「Arduino」のタグが付いた記事
+# 「Web開発」のタグが付いた記事
 
-<span class="text-base"><PostCounter tag="arduino" /></span>件
+<span class="text-base"><PostCounter tag="webdev" /></span>件
 
-<TaggedPostList tag="arduino" />
+<TaggedPostList tag="webdev" />

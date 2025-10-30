@@ -12,6 +12,8 @@ next: false
 
 editLink: false
 lastUpdated: false
+
+hidden: true
 ---
 
 <script lang="ts" setup>

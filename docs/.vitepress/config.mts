@@ -54,7 +54,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: "twitter", link: "https://x.com/asumo_1xts" },
+      { icon: "x", link: "https://x.com/asumo_1xts" },
       { icon: "github", link: "https://github.com/aSumo-1xts" },
     ],
 
@@ -172,7 +172,6 @@ function mySidebar(): DefaultTheme.SidebarItem[] {
       base: "/posts/",
       collapsed: false,
       items: generateSidebar({
-        // itemsにエラーが出ても無視
         documentRootPath: "docs",
         scanStartPath: "posts",
         useTitleFromFrontmatter: true,
@@ -185,7 +184,6 @@ function mySidebar(): DefaultTheme.SidebarItem[] {
       base: "/tags/",
       collapsed: false,
       items: generateSidebar({
-        // itemsにエラーが出ても無視
         documentRootPath: "docs",
         scanStartPath: "tags",
         useTitleFromFrontmatter: true,
