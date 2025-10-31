@@ -1285,7 +1285,7 @@ __metadata:
     vitepress-plugin-codeblocks-fold: "npm:^1.2.35"
     vitepress-plugin-group-icons: "npm:^1.6.5"
     vitepress-plugin-image-viewer: "npm:^1.1.6"
-    vitepress-plugin-linkcard: "npm:^0.2.5"
+    vitepress-plugin-linkcard: "npm:^0.2.6"
     vitepress-plugin-tabs: "npm:^0.7.3"
     vitepress-sidebar: "npm:^1.33.0"
   languageName: unknown
@@ -2945,13 +2945,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vitepress-plugin-linkcard@npm:^0.2.5":
-  version: 0.2.5
-  resolution: "vitepress-plugin-linkcard@npm:0.2.5"
+"vitepress-plugin-linkcard@npm:^0.2.6":
+  version: 0.2.6
+  resolution: "vitepress-plugin-linkcard@npm:0.2.6"
   dependencies:
     "@luckrya/utility": "npm:^0.1.1"
     xmlhttprequest: "npm:^1.8.0"
-  checksum: 10c0/6d26e994773d895a4ba50c6b7a8afe02d24482a458348a5548c79e4144f8dc172c70d14c314dfc6a850100a5c5a589204d005d7f5a635ae2394197867f51d4b1
+  checksum: 10c0/0a546741f75c3a5ce7a20d2c5f1f22e31fad07d29b8f008a019429e3ffd782b2e7feb30e0b0f71e3605f3cd9dafe49079878af42f5df464b709b3b9542b855f0
   languageName: node
   linkType: hard
 
