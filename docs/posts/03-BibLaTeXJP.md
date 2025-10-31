@@ -2,7 +2,7 @@
 layout: doc
 
 emoji: 🏛️
-title: BibLaTeXで欧文和文を混ぜる
+title: BibLaTeXで欧文と和文を混ぜる
 description: ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ
 
 date: 2025-06-10
@@ -19,7 +19,7 @@ hidden: false
 
 [LaTeX](../tags/latex)
 
-# BibLaTeXで欧文和文を混ぜる
+# BibLaTeXで欧文と和文を混ぜる
 
 ## はじめに
 

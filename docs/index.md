@@ -25,5 +25,5 @@ features:
     details: 雑記
     link: ./posts/04-books2025
 
-permalink: "https://aSumoranda.com/"
+permalink: "https://asumoranda.com/"
 ---

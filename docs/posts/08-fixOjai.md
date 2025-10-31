@@ -2,7 +2,7 @@
 layout: doc
 
 emoji: ⚡
-title: Strymon Ojaiの修理
+title: Strymon Ojaiの端子折れを修理
 description: ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ
 
 date: 2025-10-23
@@ -19,7 +19,7 @@ hidden: false
 
 [エフェクター修理](../tags/fixpedals)
 
-# Strymon Ojaiの修理
+# Strymon Ojaiの端子折れを修理
 
 ## はじめに
 

@@ -1,4 +1,4 @@
-import { createContentLoader, defineConfig, HeadConfig } from "vitepress";
+import { createContentLoader, defineConfig } from "vitepress";
 import { type DefaultTheme } from "vitepress";
 import { SitemapStream } from "sitemap";
 import { createWriteStream } from "node:fs";
@@ -9,6 +9,8 @@ import {
   groupIconMdPlugin,
   groupIconVitePlugin,
 } from "vitepress-plugin-group-icons";
+import { linkToCardPlugin } from "vitepress-plugin-linkcard";
+import type { LinkToCardPluginOptions } from "vitepress-plugin-linkcard";
 
 export default defineConfig({
   lang: "ja",
@@ -22,6 +24,9 @@ export default defineConfig({
     config: (md) => {
       md.use(tabsMarkdownPlugin);
       md.use(groupIconMdPlugin);
+      md.use<LinkToCardPluginOptions>(linkToCardPlugin, {
+        borderColor: "#68b3af7d",
+      });
     },
   },
   vite: {
@@ -51,7 +56,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: "twitter", link: "https://x.com/asumo_1xts" },
+      { icon: "x", link: "https://x.com/asumo_1xts" },
       { icon: "github", link: "https://github.com/aSumo-1xts" },
     ],
 
@@ -84,7 +89,7 @@ export default defineConfig({
   // サイトマップの生成
   buildEnd: async ({ outDir }) => {
     const sitemap = new SitemapStream({
-      hostname: "https://aSumoranda.com",
+      hostname: "https://asumoranda.com",
     });
     const pages = await createContentLoader("**/*.md").load();
     const writeStream = createWriteStream(resolve(outDir, "sitemap.xml"));
@@ -169,7 +174,6 @@ function mySidebar(): DefaultTheme.SidebarItem[] {
       base: "/posts/",
       collapsed: false,
       items: generateSidebar({
-        // itemsにエラーが出ても無視
         documentRootPath: "docs",
         scanStartPath: "posts",
         useTitleFromFrontmatter: true,
@@ -182,7 +186,6 @@ function mySidebar(): DefaultTheme.SidebarItem[] {
       base: "/tags/",
       collapsed: false,
       items: generateSidebar({
-        // itemsにエラーが出ても無視
         documentRootPath: "docs",
         scanStartPath: "tags",
         useTitleFromFrontmatter: true,

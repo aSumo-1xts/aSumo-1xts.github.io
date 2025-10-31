@@ -5,13 +5,15 @@ title: PIC
 description: 「PIC」のタグが付いた記事
 
 order: 22
-permalink: "https://aSumoranda.com/tags/pic.html"
+permalink: "https://asumoranda.com/tags/pic.html"
 
 prev: false
 next: false
 
 editLink: false
 lastUpdated: false
+
+hidden: true
 ---
 
 <script lang="ts" setup>

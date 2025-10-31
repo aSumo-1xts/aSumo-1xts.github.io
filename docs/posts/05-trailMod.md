@@ -2,7 +2,7 @@
 layout: doc
 
 emoji: 🔨
-title: DOD FX96のトレイルバイパス化
+title: DOD FX96をトレイルバイパス化
 description: ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ
 
 date: 2025-09-24
@@ -21,7 +21,7 @@ hidden: false
 
 [エフェクター改造](../tags/modpedals) | [PIC](../tags/pic.md) | [C/C++](../tags/ccpp.md)
 
-# DOD FX-96のトレイルバイパス化
+# DOD FX-96をトレイルバイパス化
 
 ::: warning
 正しい情報を記載するよう努めていますが、それはそれとして当方は一切の責任を負いかねます。
