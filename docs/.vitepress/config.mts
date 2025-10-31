@@ -26,6 +26,7 @@ export default defineConfig({
       md.use(groupIconMdPlugin);
       md.use<LinkToCardPluginOptions>(linkToCardPlugin, {
         borderColor: "#68b3af7d",
+        bgColor: "#68b3af0d",
       });
     },
   },
