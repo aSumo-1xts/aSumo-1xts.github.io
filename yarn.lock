@@ -526,6 +526,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@luckrya/utility@npm:^0.1.1":
+  version: 0.1.1
+  resolution: "@luckrya/utility@npm:0.1.1"
+  checksum: 10c0/2f9e34fcffec9a908a41834e5963a2e35d5a709be4a44f8d5294e3213545bc9981640d31abb1e84461d75f2d671696c2014afe2975063ac27738a5f77eed3bb6
+  languageName: node
+  linkType: hard
+
 "@miletorix/vitepress-image-group@npm:^1.1.3":
   version: 1.1.3
   resolution: "@miletorix/vitepress-image-group@npm:1.1.3"
@@ -1194,6 +1201,7 @@ __metadata:
     vitepress-plugin-codeblocks-fold: "npm:^1.2.35"
     vitepress-plugin-group-icons: "npm:^1.6.3"
     vitepress-plugin-image-viewer: "npm:^1.1.6"
+    vitepress-plugin-linkcard: "npm:^0.2.1"
     vitepress-plugin-tabs: "npm:^0.7.1"
     vitepress-sidebar: "npm:^1.31.1"
   languageName: unknown
@@ -3125,6 +3133,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"vitepress-plugin-linkcard@npm:^0.2.1":
+  version: 0.2.1
+  resolution: "vitepress-plugin-linkcard@npm:0.2.1"
+  dependencies:
+    "@luckrya/utility": "npm:^0.1.1"
+    xmlhttprequest: "npm:^1.8.0"
+  checksum: 10c0/82cd012ec85294f1f422a2b0cd82b9293cce111089942527b30014946c5af8eb7a7899359b7c49f850423954f99a64e1c8694b89a60f42240b74b8ff74274327
+  languageName: node
+  linkType: hard
+
 "vitepress-plugin-tabs@npm:^0.7.1":
   version: 0.7.1
   resolution: "vitepress-plugin-tabs@npm:0.7.1"
@@ -3286,6 +3304,13 @@ __metadata:
   version: 0.1.31
   resolution: "xmldom-sre@npm:0.1.31"
   checksum: 10c0/d4250a44949b7874661fc05cb708c84a1258871d63aae67271f6a0dec3003d301238f7b477ab7a31b828c9bdc1fc46f7469e81d04fe4a1bb6d3f527dfb602029
+  languageName: node
+  linkType: hard
+
+"xmlhttprequest@npm:^1.8.0":
+  version: 1.8.0
+  resolution: "xmlhttprequest@npm:1.8.0"
+  checksum: 10c0/c890661562e4cb6c36a126071e956047164296f58b0058ab28a9c9f1c3b46a65bf421a242d3449363a2aadc3d9769146160b10a501710d476a17d77d41a5c99e
   languageName: node
   linkType: hard
 

@@ -24,7 +24,9 @@ export default defineConfig({
     config: (md) => {
       md.use(tabsMarkdownPlugin);
       md.use(groupIconMdPlugin);
-      md.use<LinkToCardPluginOptions>(linkToCardPlugin, {});
+      md.use<LinkToCardPluginOptions>(linkToCardPlugin, {
+        borderColor: "#68b3af7d",
+      });
     },
   },
   vite: {
