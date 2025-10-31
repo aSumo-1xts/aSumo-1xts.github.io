@@ -2944,7 +2944,7 @@ __metadata:
   checksum: 10c0/c30bb0e0e79f20cf90096850024e5d53daf4c7612430465e4c336200a167e976d227f7a5d03df7d296e92b01719fc6dc36ff4174270fd31a8ddc671fed409b98
   languageName: node
   linkType: hard
-
+  
 "vitepress-plugin-linkcard@npm:^0.3.1":
   version: 0.3.1
   resolution: "vitepress-plugin-linkcard@npm:0.3.1"
